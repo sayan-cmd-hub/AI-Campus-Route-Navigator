@@ -1,0 +1,27 @@
+agent,start,destination,route,path_cost_m,nodes_explored,time_seconds,found
+PATHFINDER,Reception of Calcutta University,Library,Reception of Calcutta University -> Power Area -> Tower 2 Front Entry -> Parking Area -> Tower 2 Rear Entry -> Library,230.0,6,8.77e-05,True
+ORBIT,Reception of Calcutta University,Library,Reception of Calcutta University -> Power Area -> Tower 2 Front Entry -> Parking Area -> Tower 2 Rear Entry -> Library,230.0,6,0.0001101,True
+PATHFINDER,"Canteen, CU Technology Campus",New Building 2 (Workshop Building),"Canteen, CU Technology Campus -> Auditorium Hall -> New Building 2 (Workshop Building)",160.0,3,3.4e-05,True
+ORBIT,"Canteen, CU Technology Campus",New Building 2 (Workshop Building),"Canteen, CU Technology Campus -> Auditorium Hall -> New Building 2 (Workshop Building)",160.0,3,3.01e-05,True
+PATHFINDER,Entry Gate 1 (G1),CSE Laboratory,"Entry Gate 1 (G1) -> Canteen, CU Technology Campus -> Power Area -> Tower 2 Front Entry -> Parking Area -> Tower 2 Rear Entry -> Lift Area -> CSE Laboratory",318.0,8,7.5e-05,True
+ORBIT,Entry Gate 1 (G1),CSE Laboratory,"Entry Gate 1 (G1) -> Canteen, CU Technology Campus -> Power Area -> Tower 2 Front Entry -> Parking Area -> Tower 2 Rear Entry -> Lift Area -> CSE Laboratory",318.0,9,0.000244,True
+PATHFINDER,Auditorium Hall,CSE_AKC Seminar Hall,"Auditorium Hall -> Canteen, CU Technology Campus -> Power Area -> Tower 2 Front Entry -> Parking Area -> Tower 2 Rear Entry -> Lift Area -> CSE_AKC Seminar Hall",352.0,8,7.11e-05,True
+ORBIT,Auditorium Hall,CSE_AKC Seminar Hall,Auditorium Hall -> Garden Area -> Library -> Tower 2 Rear Entry -> Lift Area -> CSE_AKC Seminar Hall,252.0,11,8.19e-05,True
+PATHFINDER,Library,"Canteen, CU Technology Campus","Library -> Garden Area -> Auditorium Hall -> Canteen, CU Technology Campus",265.0,4,8.12e-05,True
+ORBIT,Library,"Canteen, CU Technology Campus","Library -> Tower 2 Rear Entry -> Parking Area -> Tower 2 Front Entry -> Power Area -> Canteen, CU Technology Campus",245.0,8,8.05e-05,True
+PATHFINDER,Tower 2 Front Entry,CSE Laboratory,Tower 2 Front Entry -> Parking Area -> Tower 2 Rear Entry -> Lift Area -> CSE Laboratory,123.0,5,5e-05,True
+ORBIT,Tower 2 Front Entry,CSE Laboratory,Tower 2 Front Entry -> Parking Area -> Tower 2 Rear Entry -> Lift Area -> CSE Laboratory,123.0,5,4.57e-05,True
+PATHFINDER,Tower 2 Rear Entry,CSE Laboratory,Tower 2 Rear Entry -> Lift Area -> CSE Laboratory,43.0,3,2.96e-05,True
+ORBIT,Tower 2 Rear Entry,CSE Laboratory,Tower 2 Rear Entry -> Lift Area -> CSE Laboratory,43.0,3,5.28e-05,True
+PATHFINDER,CSE Laboratory,Reception of Calcutta University,CSE Laboratory -> Lift Area -> Tower 2 Rear Entry -> Parking Area -> Tower 2 Front Entry -> Power Area -> Reception of Calcutta University,248.0,7,5.53e-05,True
+ORBIT,CSE Laboratory,Reception of Calcutta University,CSE Laboratory -> Lift Area -> Tower 2 Rear Entry -> Parking Area -> Tower 2 Front Entry -> Power Area -> Reception of Calcutta University,248.0,11,6.62e-05,True
+PATHFINDER,CSE_AKC Seminar Hall,Entry Gate 1 (G1),"CSE_AKC Seminar Hall -> Lift Area -> Tower 2 Rear Entry -> Parking Area -> Tower 2 Front Entry -> Power Area -> Canteen, CU Technology Campus -> Entry Gate 1 (G1)",322.0,9,5.87e-05,True
+ORBIT,CSE_AKC Seminar Hall,Entry Gate 1 (G1),"CSE_AKC Seminar Hall -> Lift Area -> Tower 2 Rear Entry -> Parking Area -> Tower 2 Front Entry -> Power Area -> Canteen, CU Technology Campus -> Entry Gate 1 (G1)",322.0,13,7.8e-05,True
+PATHFINDER,CSE Laboratory,CSE_AKC Seminar Hall,CSE Laboratory -> CSE_AKC Seminar Hall,15.0,2,4.24e-05,True
+ORBIT,CSE Laboratory,CSE_AKC Seminar Hall,CSE Laboratory -> CSE_AKC Seminar Hall,15.0,2,4.24e-05,True
+PATHFINDER,CSE_Reflxon Room,Library,CSE_Reflxon Room -> Lift Area -> Tower 2 Rear Entry -> Library,78.0,4,3.41e-05,True
+ORBIT,CSE_Reflxon Room,Library,CSE_Reflxon Room -> Lift Area -> Tower 2 Rear Entry -> Library,78.0,6,3.75e-05,True
+PATHFINDER,Playground of Technology Campus,Entry Gate 2 (G2),"Playground of Technology Campus -> Tower 2 Front Entry -> Power Area -> Canteen, CU Technology Campus -> Auditorium Hall -> New Building 2 (Workshop Building) -> Entry Gate 2 (G2)",540.0,8,6.33e-05,True
+ORBIT,Playground of Technology Campus,Entry Gate 2 (G2),Playground of Technology Campus -> Parking Area -> Tower 2 Rear Entry -> Library -> Garden Area -> New Building 1 (Electrical & Seminar) -> Entry Gate 2 (G2),390.0,8,5.55e-05,True
+PATHFINDER,CSE_AKC Seminar Hall,CSE_Reflxon Room,CSE_AKC Seminar Hall -> CSE_Reflxon Room,18.0,2,1.21e-05,True
+ORBIT,CSE_AKC Seminar Hall,CSE_Reflxon Room,CSE_AKC Seminar Hall -> CSE_Reflxon Room,18.0,2,1.07e-05,True
